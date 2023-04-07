@@ -8,11 +8,9 @@ import Pagination from '../components/ui/Pagination';
 const Home = () => {
     return (
         <>
-            <Navbar />
             <Tags />
             <VideoGrid />
             <Pagination />
-            <Footer />
         </>
     );
 };
